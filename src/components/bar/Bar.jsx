@@ -33,7 +33,7 @@ const Bar = () => {
         
         <div className="btn">
         <a href = "#batches">
-            Get Started ->
+            Get Started -&gt;
             </a>
         </div>
     
