@@ -1,0 +1,101 @@
+.batches__container {
+  background-color: rgb(188, 233, 255);
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.batches__align {
+max-width: 1200px;
+padding-left: 1.5rem;
+display: flex;
+justify-content: space-around; 
+gap: 20px; 
+
+}
+.batches__title {
+
+    font-family: 'Dancing Script';
+    color: rgb(0, 0, 0);  
+    font-size: 100px;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.batches__card {
+    background-color: rgb(255, 255, 255);
+    height: 275px;
+    width: 250px;   
+    font-family: 'Rubik';
+    font-size: var(--h3-font-size); 
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;   
+    border-radius: 15px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}   
+
+.batches__mar{
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: center; /* center the cards */
+  gap: 20px; /* space between cards */
+  margin-bottom: 3rem;
+}
+
+.batches__card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+.batches__heading {
+    font: 800;
+    
+}
+
+.batches__sub {
+  margin-top: -1rem;
+  font:400
+
+}
+
+body {
+    overflow-x: hidden;
+  }
+
+.push { 
+    border: 2px solid black;
+    max-width: 120px;
+    border-radius: 20px;
+    
+}
+
+.push:hover {
+  cursor: pointer;
+  background-color: var(--title-color);
+  color: white;
+}
+
+.extra__batches {
+    
+    justify-content: center;
+    justify-items: center;
+}
+
+.extra__text {
+  max-width: 500px;
+  justify-content: center;
+  justify-items: center;
+  font-family: 'Rubik';
+  background-color: white;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 20px;
+  padding: 2rem;
+
+}

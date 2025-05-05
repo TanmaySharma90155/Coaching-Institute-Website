@@ -1,0 +1,58 @@
+.about__container {
+    background-image: url("../../assets/whiteback.jpg");
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.about__title {
+    padding: 3rem;  
+    font-family: 'Dancing Script';
+    color: rgb(0, 0, 0);
+    font-size:100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.boxi{
+    font-family: 'Rubik';
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-top: -21.8rem;
+    margin-right: 10rem;    
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    border: 3px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.about__boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: -10rem;
+    margin-top: 5rem;
+    margin-left: 3rem; 
+    max-width: 1200px;
+    justify-items: center;
+    font-family: 'Rubik';
+    border : 2px white;
+    
+}
+
+.about__box {
+    display: flex;
+    column-gap: 1rem; 
+    margin-bottom: 3rem;
+}
+
+.about__icon {
+    font-size: var(--h1-font-size);
+    justify-content: center;
+}
+

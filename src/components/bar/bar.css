@@ -1,0 +1,75 @@
+.big__container {
+        width: 1260px;                      /* Specify desired width */
+        height: 700px;                     /* Specify desired height */
+        background-image: url('../../assets/boy1_2.jpeg');
+        background-size: cover;           /* Or 'contain' depending on your needs */
+        background-position: center;
+        background-repeat: no-repeat;   
+        
+}
+
+.home__title {
+    text-align: left;
+    font-size: var(--h1-font-size);
+    font-weight: 600;
+    font-family: "Rubik";
+    color: aliceblue;
+    margin-left: 4rem;
+    padding-top: 2rem;
+}
+
+.home__icons {
+    text-align: right;
+    margin-top: -1.5rem;
+    margin-right: 2rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: var(--title-color);
+}
+
+.small__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-left: 4.5rem;
+    color: rgb(255, 255, 255);
+    font-family: "Rubik";
+    font-size: large;
+}
+
+.btn {
+
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    margin-left: 4.5rem;
+    color: rgb(255, 255, 255);
+    font-family: "Rubik";
+    font-size: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 180px;
+    border-radius: 10px;
+    padding-left: 1rem;
+    
+}
+.btn a {
+    text-decoration: none;
+    color: inherit; /* Optional: uses parent text color */
+  }
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+.home__image {
+
+    margin-right: -40rem;
+    margin-top: -12.5rem;
+    transition: filter 0.3s ease;
+}
+
