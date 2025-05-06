@@ -76,7 +76,7 @@ body {
 
 .push:hover {
   cursor: pointer;
-  background-color: var(--title-color);
+  background-color: hsl(207, 93%, 42%);
   color: white;
 }
 

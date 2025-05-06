@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./bar.css";
 import Logo from "../../assets/unnamed.jpg";
 import Header from "../header/Header";
@@ -7,39 +7,51 @@ import Courses from "../courses/Courses";
 import Students from "../students/Students";
 import Contacts from "../contacts/Contacts";
 
-
-
-
 const Bar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
     <>
-    <div className="big__container" id = "home">
-        <div className="home__title"> 
-            <img src={Logo} alt = "Logo" width='50px' height = '50px' style={{borderRadius:'15%', marginBottom: '-0.5rem' }} />  Virmani Tutorials
+    <div className="big__container" id="home">
+        <div className="nav__container">
+            <div className="home__title"> 
+                <img src={Logo} alt="Logo" className="logo__image" />  
+                <span className="title__text">Virmani Tutorials</span>
+            </div>
+            
+            <div className="mobile__menu__toggle" onClick={toggleMenu}>
+                {menuOpen ? (
+                    <div className="hamburger-icon close-icon">✕</div>
+                ) : (
+                    <div className="hamburger-icon">☰</div>
+                )}
+            </div>
         </div>
-        <Header />
 
-        <div className="small__container">
-            WELCOME TO VIRMANI TUTORIALS!
-        </div>
-        <div style={{fontFamily: 'Rubik', fontSize: '50px', color: 'white', textAlign: 'left', marginLeft: '4.5rem ', marginTop: '1.5rem'}}>Learn with the Best</div>
-        <div style={{fontFamily: 'Rubik', fontSize: '15px', color: 'white', textAlign: 'left', marginLeft: '4.5rem ', marginTop: '1.5rem'}}>
-            Are you afraid of maths ? Not anymore, 
-        </div>
-        <div style={{fontFamily: 'Rubik', fontSize: '15px', color: 'white', textAlign: 'left', marginLeft: '4.5rem '}}>
-        Virmani Tutorials is here to make your mathematics concepts crystal clear.
+        <div className={`header__wrapper ${menuOpen ? 'menu-open' : ''}`}>
+            <Header />
         </div>
 
-        
-        <div className="btn">
-        <a href = "#batches">
-            Get Started -&gt;
-            </a>
+        <div className="hero__content">
+            <div className="small__container">
+                WELCOME TO VIRMANI TUTORIALS!
+            </div>
+            <h1 className="hero__heading">Learn with the Best</h1>
+            <div className="hero__description">
+                <p>Are you afraid of maths? Not anymore,</p>
+                <p>Virmani Tutorials is here to make your mathematics concepts crystal clear.</p>
+            </div>
+            
+            <div className="btn">
+                <a href="#batches">
+                    Get Started -&gt;
+                </a>
+            </div>
         </div>
-    
-
-        
-
     </div>
     <About />
     <Courses />
@@ -47,7 +59,6 @@ const Bar = () => {
     <Contacts />
     </> 
     );
-
 };
 
 export default Bar;

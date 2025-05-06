@@ -9,7 +9,7 @@ import Students from './components/students/Students';
 import Contacts from './components/contacts/Contacts';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Assign from './components/assign/Assign';
-import WeirdEasterEgg from './components/yuckyuckgo/Yuck';
+
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
           <Route path="/students" element={<Students />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/assign" element={<Assign />} />
-          <Route path="/Yuckyuckgo" element={<WeirdEasterEgg/>} />
+          
           
       </Routes>
     </Router>

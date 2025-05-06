@@ -1,78 +1,172 @@
 .students__container {
-    background-color: rgb(87, 193, 255);
-    padding: 2rem;
-  }
-  
-  .students__title {
-    font-family: 'Dancing Script';
-    color: black;
-    font-size: 100px;
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  
-  .students__test {
-    padding-left: 15rem;
-    padding-right: 15rem;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-  }
-  
-  /* Flex row for each testimonial */
-  .testimonial-row {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-  
-  /* Reverse row for alternate layout */
-  .testimonial-row.reverse {
-    flex-direction: row-reverse;
-  }
-  
-  /* Image styling */
-  .testimonial-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  /* Text section */
-  .testimonial-text {
-    flex: 1;
-    font-family: 'Rubik';
-    color: black;
-  }
-  
-  .students__name {
-    font-size: var(--h3-font-size);
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .students__card {
-    background-color: var(--title-color);
-    height: 275px;
-    width: 250px;   
-    font-family: 'Rubik';
-    font-size: var(--h3-font-size); 
-    color: rgb(255, 255, 255);
-    display: flex;
-    text-align: center;
-    justify-content: center;   
-    border-radius: 15px;
-    border: 2px solid black;
-    border-bottom: 5px solid black;
-    border-right: 5px solid black;
-    padding: 2px;
+  background-color: rgb(87, 193, 255);
+  padding: 2rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.students__title {
+  font-family: 'Dancing Script';
+  color: black;
+  font-size: 4rem; /* Changed from fixed 100px to relative unit */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.students__test {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Flex row for each testimonial */
+.testimonial-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Image styling */
+.testimonial-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Text section */
+.testimonial-text {
+  flex: 1;
+  font-family: 'Rubik';
+  color: black;
+}
+
+.students__name {
+  font-size: var(--h3-font-size);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.students__card {
+  background-color: hsl(207, 93%, 42%);
+  height: 275px;
+  width: 250px;   
+  font-family: 'Rubik';
+  font-size: var(--h3-font-size); 
+  color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  justify-content: center;   
+  border-radius: 15px;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  padding: 2px;
 }  
 
 .students__align {
   display: flex;
   flex-wrap: wrap; /* allows wrapping on smaller screens */
   justify-content: center; /* center the cards */
-  gap: 3rem; /* space between cards */
-  margin-bottom: 3rem;
+  gap: 2rem; /* reduced from 3rem for better mobile display */
+  margin: 3rem auto;
+  max-width: 1200px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+  .students__test {
+    padding: 0 2rem;
+  }
+  
+  .students__title {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .students__title {
+    font-size: 3rem;
+  }
+  
+  .testimonial-img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .students__card {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .students__title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .students__test {
+    padding: 0 1rem;
+    gap: 2rem;
+  }
+  
+  /* Stack all testimonial rows on tablet */
+  .testimonial-row {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .testimonial-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .students__card {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .students__container {
+    padding: 1rem 0.5rem;
+  }
+  
+  .students__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .students__test {
+    padding: 0 0.5rem;
+    gap: 1.5rem;
+  }
+  
+  .testimonial-text p {
+    font-size: 0.9rem;
+  }
+  
+  .students__name {
+    font-size: calc(var(--h3-font-size) * 0.9);
+  }
+  
+  .students__card {
+    height: auto;
+    min-height: 250px;
+    padding: 1rem;
+  }
+  
+  .students__heading {
+    margin-top: 0 !important;
+  }
+  
+  .students__sub-title {
+    margin-top: 1rem !important;
+    font-size: 0.9rem;
+  }
 }
