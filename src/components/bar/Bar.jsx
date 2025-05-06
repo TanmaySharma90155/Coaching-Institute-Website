@@ -16,11 +16,11 @@ const Bar = () => {
 
     return (
     <>
-    <div className="big__container" id="home">
+    <div className="big__container" id="home" style={{maxWidth: '100%'}}>
         <div className="nav__container">
             <div className="home__title"> 
                 <img src={Logo} alt="Logo" className="logo__image" />  
-                <span className="title__text">Virmani Tutorials</span>
+                <span className="title__text" style={{color: 'white'}}>Virmani Tutorials</span>
             </div>
             
             <div className="mobile__menu__toggle" onClick={toggleMenu}>
