@@ -6,6 +6,7 @@
 
 /* Mobile-first approach - base styles for all devices */
 .big__container {
+    width: 100vw;
     max-width: 100%;
     min-height: 100vh;
     background-image: url('../../assets/boy1_2.jpeg');
@@ -225,4 +226,7 @@
     .hero__content {
         max-width: 50%;
     }
+}
+body {
+    overflow-x: hidden;
 }
