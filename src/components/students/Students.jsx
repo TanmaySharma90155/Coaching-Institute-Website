@@ -9,7 +9,7 @@ const Students = () => {
     <div className="students__container" id="students">
         <div className="students__part">
             <div className="students__title" data-aos="fade-down">
-                Student Testimonials
+                Testimonials
             </div>
             
             <div className="students__test">

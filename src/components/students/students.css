@@ -11,6 +11,7 @@
   font-size: 70px; /* Changed from fixed 100px to relative unit */
   text-align: center;
   margin-bottom: 2rem;
+  max-width: 100%;
 }
 
 .students__test {
@@ -84,12 +85,13 @@
   
   .students__title {
     font-size: 70px;
-  }
+      }
 }
 
 @media screen and (max-width: 992px) {
   .students__title {
     font-size: 70px;
+
   }
   
   .testimonial-img {
