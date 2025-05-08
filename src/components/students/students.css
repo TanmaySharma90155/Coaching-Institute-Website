@@ -132,7 +132,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 100%) {
   .students__container {
     padding: 1rem 0.5rem;
   }

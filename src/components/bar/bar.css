@@ -6,7 +6,7 @@
 
 /* Mobile-first approach - base styles for all devices */
 .big__container {
-    width: auto;
+    max-width: 100%;
     min-height: 100vh;
     background-image: url('../../assets/boy1_2.jpeg');
     background-size: cover;
