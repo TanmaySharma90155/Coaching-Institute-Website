@@ -11,7 +11,6 @@
   font-size: 70px; /* Changed from fixed 100px to relative unit */
   text-align: center;
   margin-bottom: 2rem;
-  max-width: 100%;
 }
 
 .students__test {
@@ -85,13 +84,12 @@
   
   .students__title {
     font-size: 70px;
-      }
+  }
 }
 
 @media screen and (max-width: 992px) {
   .students__title {
     font-size: 70px;
-
   }
   
   .testimonial-img {
@@ -134,7 +132,7 @@
   }
 }
 
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 480px) {
   .students__container {
     padding: 1rem 0.5rem;
   }
@@ -171,4 +169,10 @@
     margin-top: 1rem !important;
     font-size: 0.9rem;
   }
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+
 }
