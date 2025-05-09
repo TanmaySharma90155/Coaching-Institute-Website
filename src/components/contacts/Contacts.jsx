@@ -45,7 +45,7 @@ const Contacts = () => {
                             <div className="contacts__row">
                                 <div className="contacts__title">Email:</div>
                                 <div className="contacts__thought">
-                                    <a href="mailto:tanmaysharma90155@gmail.com">example.com</a>
+                                    <a href="mailto:">virmanitutorials.com</a>
                                 </div>
                             </div>
                             <div className="contacts__row">

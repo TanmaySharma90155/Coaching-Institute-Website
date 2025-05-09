@@ -58,13 +58,13 @@ const Header = () => {
                 </span>
             </div>
             <div className="header__icon">
-                <a href="#" className="social-link">
+                <a href="https://www.linkedin.com/in/shobhit-virmani-953aa320/" className="social-link">
                     <img className="icon" src={lk} alt="LinkedIn" />
                 </a>
-                <a href="#" className="social-link">
+                <a href="https://youtube.com/@shobhitvirmani?feature=shared" className="social-link">
                     <img className="icon" src={yt} alt="YouTube" />
                 </a>
-                <a href="#" className="social-link">
+                <a href="https://www.instagram.com/shobhitvirmani?igsh=ZGMxZjlkZmM3OWs3" className="social-link">
                     <img className="icon" src={ig} alt="Instagram" />
                 </a>
             </div>

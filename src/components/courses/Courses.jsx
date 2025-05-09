@@ -19,7 +19,7 @@ const Courses = () => {
                             <p className="batches__heading">CLASS 6-8</p>
                             <p className="batches__heading" >Subjects: </p>
                             <p className="batches__sub"style={{marginBottom: '3rem'}}>Maths, Science</p>
-                            <p className="push" style={{marginLeft: '0.5rem'}}>Enroll now</p>
+                            <p className="push" style={{marginLeft: '0.5rem'}}><a href="#contacts">Enroll now</a></p>
                         </div>
                     </div>        
 
@@ -28,7 +28,7 @@ const Courses = () => {
                             <p className="batches__heading"style={{}}>CLASS 9-10</p>
                             <p className="batches__heading" style={{marginTop: '1rem'}}>Subjects: </p>
                             <p className="batches__sub" style={{marginBottom: '1rem'}}>Foundational Maths, Vedic Maths</p>
-                            <p className="push" style={{marginLeft:'4rem', marginTop: '2rem'}}>Enroll now</p>
+                            <p className="push" style={{marginLeft:'4rem', marginTop: '2rem'}}><a href="#contacts">Enroll now</a></p>
                         </div>
                     </div>        
 
@@ -38,7 +38,7 @@ const Courses = () => {
                             <p className="batches__heading"style={{marginTop:  '1rem'}}>Subjects: </p>
                             <p className="batches__sub">Applied Maths, CUET</p>
                             <p className="batches__sub" style={{marginBottom: '1rem'}}>JEE</p>
-                            <p className="push" style={{marginLeft:'2.5rem', marginTop: '2rem'}}>Enroll now</p>
+                            <p className="push" style={{marginLeft:'2.5rem', marginTop: '2rem'}}><a href="#contacts">Enroll now</a></p>
                         </div>
                     </div>        
 
@@ -47,7 +47,7 @@ const Courses = () => {
                             <p className="batches__heading" style={{}}>OLYMPIAD</p>
                             <p className="batches__heading" >Subjects: </p>
                             <p className="batches__sub" style={{marginBottom: '3rem'}}>NTSE, IMO, etc</p>
-                            <p className="push" style={{marginLeft: '0.5rem', marginTop: '1.5rem'}}>Enroll now</p>
+                            <p className="push" style={{marginLeft: '0.5rem', marginTop: '1.5rem'}}><a href="#contacts">Enroll now</a></p>
                         </div>
                     </div>          
                 

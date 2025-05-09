@@ -79,7 +79,13 @@ body {
   background-color: hsl(207, 93%, 42%);
   color: white;
 }
-
+.push a{
+  text-decoration: none;
+  color: black;
+}
+.push a:hover{
+  color: white;
+}
 .extra__batches {
     
     justify-content: center;

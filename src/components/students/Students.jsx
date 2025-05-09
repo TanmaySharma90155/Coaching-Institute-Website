@@ -18,7 +18,7 @@ const Students = () => {
                     <img src={photo} alt="Student Tanmay" className="testimonial-img" />
                     <div className="testimonial-text">
                         <div className="students__name">Tanmay Sharma - Engineering Student</div>
-                        <p>The advanced mathematics course prepared me thoroughly for my engineering entrance exams. The problem-solving techniques I learned were invaluable, and I secured admission to my dream college.</p>
+                        <p>The advanced mathematics course prepared me thoroughly for my board exams. The problem-solving techniques I learned were invaluable, and I secured 93% in my exams.</p>
                     </div>
                 </div>
 
