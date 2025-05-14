@@ -20,7 +20,7 @@ const Courses = () => {
       <p className="batches__heading" style={{ marginBottom: '0.5rem' }}>CLASS 6-8</p>
       <p className="batches__heading" style={{ marginBottom: '2rem' }}>Subjects:</p>
       <p className="batches__sub" style={{ marginBottom: '4rem' }}>Maths, Science</p>
-      <p className="push" style={{ marginTop: 'auto' , marginLeft: '2.2rem' }}><a href="#contacts">Enroll now</a></p>
+      <p className="push" style={{ marginTop: 'auto' , marginLeft: '2.3rem' }}><a href="#contacts">Enroll now</a></p>
     </div>
   </div>
 
@@ -30,7 +30,7 @@ const Courses = () => {
       <p className="batches__heading" style={{ marginBottom: '0.5rem' }}>CLASS 9-10</p>
       <p className="batches__heading" style={{ marginBottom: '2rem' }}>Subjects:</p>
       <p className="batches__sub" style={{ marginBottom: '4rem' }}>Maths, Science</p>
-      <p className="push" style={{ marginTop: 'auto' , marginLeft: '2.2rem' }}><a href="#contacts">Enroll now</a></p>
+      <p className="push" style={{ marginTop: 'auto' , marginLeft: '2.3rem' }}><a href="#contacts">Enroll now</a></p>
     </div>
   </div>
 
@@ -41,7 +41,7 @@ const Courses = () => {
       <p className="batches__heading" style={{ marginBottom: '2rem' }}>Subjects:</p>
       <p className="batches__sub" style={{ marginBottom: '1rem' }}>Core Maths, Applied Maths, CUET,</p>
       <p className="batches__sub" style={{ marginBottom: '0rem' }}>JEE</p>
-      <p className="push" style={{ marginTop: 'auto', marginLeft: '2.2rem' }}><a href="#contacts">Enroll now</a></p>
+      <p className="push" style={{ marginTop: 'auto', marginLeft: '2.3rem' }}><a href="#contacts">Enroll now</a></p>
     </div>
   </div>
 
@@ -52,7 +52,7 @@ const Courses = () => {
       <p className="batches__heading" style={{ marginBottom: '2rem' }}>Subjects:</p>
       <p className="batches__sub" style={{ marginBottom: '1rem' }}>NTSE, IMO,</p>
       <p className="batches__sub" style={{ marginBottom: '3.3rem' }}>Foundational Maths</p>
-      <p className="push" style={{ marginTop: 'auto' , marginLeft: '2.2rem'}}><a href="#contacts">Enroll now</a></p>
+      <p className="push" style={{ marginTop: 'auto' , marginLeft: '2.3rem'}}><a href="#contacts">Enroll now</a></p>
     </div>
   </div>
 
