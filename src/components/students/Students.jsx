@@ -46,28 +46,28 @@ const Students = () => {
         <div className="students__align" data-aos="fade-up" data-aos-delay="300">
             <div className="students__card">
                 <div className="students__card-content">
-                    <p className="students__heading">Conceptual Clarity</p>
+                    <p className="students__heading"><u>Conceptual Clarity</u></p>
                     <p className="students__sub-title">We focus on building strong foundations and deep conceptual understanding rather than mere memorization</p>
                 </div>
             </div>
 
             <div className="students__card">
                 <div className="students__card-content">
-                    <p className="students__heading">Problem Solving</p>
+                    <p className="students__heading"><u>Problem Solving</u></p>
                     <p className="students__sub-title">We train students to approach complex problems with confidence through proven techniques</p>
                 </div>
             </div>
 
             <div className="students__card">
                 <div className="students__card-content">
-                    <p className="students__heading">Structured Curriculum</p>
+                    <p className="students__heading"><u>Structured Curriculum</u></p>
                     <p className="students__sub-title">Our systematically designed curriculum covers all aspects of mathematics from basic to advanced levels</p>
                 </div>
             </div>
 
             <div className="students__card">
                 <div className="students__card-content">
-                    <p className="students__heading">Exam Excellence</p>
+                    <p className="students__heading"><u>Exam Excellence</u></p>
                     <p className="students__sub-title">Our specialized coaching techniques prepare students to excel in competitive exams and school mathematics</p>
                 </div>
             </div>
